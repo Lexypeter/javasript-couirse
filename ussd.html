@@ -1,0 +1,35 @@
+<!--A javascript program designed like a bank ussd application the program is designed to run until the user clicks exit-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    function ussd(){
+      alert("Welcome to the USSD Application!\n 1.Check balance.\n 2.Buy Airtime\n 3.Exit")
+      let Enter = prompt("Please enter your choice:");
+        if(Enter==="1"){
+          alert("Your account balance is $100")
+          return ussd()
+        }else if(Enter ==="2"){
+          let Enter1 = prompt("Enter amount you wish to buy")
+            alert(`You have succesfully purchased $${Enter1} airtime`)
+            return ussd()
+          }else if(Enter === "3"){
+            alert("Thank you for using our service bye for now")
+          }else{
+            alert("You entered a wrong input")
+            return ussd()
+          }
+        }
+  
+
+    ussd()
+    
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>

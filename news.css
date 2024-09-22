@@ -1,0 +1,151 @@
+
+body{
+      background-color:rgba(0, 0, 0, 0.99) ;
+      background-image: url("./babe.jpg");
+
+    }
+#h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+#img1{
+  height: 50px;
+  width:50px;
+  padding: 50px;
+  background-color:rgba(0, 0, 0, 0.121) ;
+  margin-right: 2%;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+img{
+  cursor: pointer;
+}
+button{
+  cursor: pointer;
+}
+#img2{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.184);
+  border-radius: 50%;
+  border: 2px solid white;
+}
+#img3{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  padding: 50px;
+  left: 320px;
+  background-color:rgba(0, 0, 0, 0.132) ;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-left: 4%;
+
+}
+img{
+  width: 40px;
+  height: 40px;
+}
+#div1{
+  position: relative;
+}
+#div2{
+
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-weight: 900;
+  font-size:x-large;
+}
+#div3{
+  display: flex;
+  color: white;
+}
+#p1{
+  padding: 5px;
+  font-size: large;
+}
+#p2{
+  padding: 5px;
+}
+#p3{
+  padding: 5px;
+}
+#p4{
+  padding: 5px;
+  font-size: large;
+}
+#div5{
+  display: flex;
+  color: white;
+  
+}
+p{
+  padding: 2px;
+}
+#empty1{
+  margin-right: 5px;
+}
+#empty2{
+  margin-right: 5px;
+}
+#reset{
+  background-color: green;
+  font-size: large;
+  padding: 5px;
+  color: white;
+
+}
+#score{
+  display: flex;
+  position: absolute;
+  right:200px;
+  color: red;
+  font-weight: bolder;
+  top: 350px;
+  background-color: aqua;
+  width: 350px;
+  border-radius: 10px;
+  text-align: center;
+
+}
+#totalscore{
+position: absolute;
+right:200px;
+top: 320px;
+font-weight: bolder;
+color: red;
+background-color: aqua;
+margin-top: 2px;
+width:350px;
+text-align: center;
+border-radius: 10px;
+text-decoration:underline;
+}
+#wins{
+  color: green;
+  margin-left: 8px;
+}
+#totalwins{
+  color: green;
+  margin-right: 5px;
+  margin-left: 2px;
+}
+#loss{
+  color: red;
+}
+#totalLoss{
+  color: red;
+  margin-right: 5px;
+  margin-left: 2px;
+
+}
+#ties{
+  color: yellow;
+}
+#totalTies{
+  color: yellow;
+  margin-left: 2px;
+}

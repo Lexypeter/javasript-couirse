@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--a html file that is designed to look like the amazon cartwith css and made ineractive with javascript
+it takes in input from user and if orders are less than $40, an additional $10 is added and if it is greater no shipping fee is added -->
+
+<html lang="en">
+<head>
+  <script>
+  function func(){
+  let inputs = document.getElementById("input");
+  let input = inputs.value; 
+  let totals= document.getElementById("meme");
+  totals.innerHTML;
+
+  if(input >=40 ){
+      totals.innerHTML ="$" + input;
+      input = "" 
+    }else if(input < 40 && input > 0 ){
+        totals.innerHTML =`$${+input +10}`
+    }else{
+        alert("invalid number\n please enter a number")
+    }
+    input = "" 
+}
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    input{
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <p>
+    Amazon Shipping Calculator
+  </p>
+  <p>Orders under $40 = +$10 Shipping.</p>
+
+  Orders over $40 = FREE Shipping.<br>
+  <input type = "text" id ="input" placeholder="Enter a value"  onkeydown="if(event.key === 'Enter'){
+  return func()
+  }">
+  <button onclick = "func()" >calculate</button>
+  <p id = "meme"></p>
+</body>
+</html>

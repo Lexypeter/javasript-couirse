@@ -1,0 +1,60 @@
+#zero{
+  height: 510px;
+  width: 420px;
+  background-color: red;
+  position: relative;
+  border: 10px solid green;
+}
+#on{
+  height: 200px;
+  position: absolute;
+  top: 0px;
+  width: 400px;
+  border: 10px solid blue;
+
+}
+#off{
+  height: 200px;
+  width: 400px;
+  position: absolute;
+  top: 0px;
+  border: 10px solid blue;
+
+}
+#onBulb{
+  position: absolute;
+  top: 250px;
+  background-color: green;
+  padding: 50px;
+  left: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#offBulb{
+  position: absolute;
+  top: 250px;
+  background-color: green;
+  padding: 50px;
+  left: 250px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#hide{
+  position: absolute;
+  top: 380px;
+  background-color: green;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  left: 100px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#display{
+  height: 510px;
+  width: 420px;
+  background-color: red;
+  position:absolute;
+  border: 10px solid green;
+}

@@ -1,0 +1,67 @@
+<!--This is a rock-paper scissors game created my Anyebe peter
+rules:
+An auto generated move is assigned to the computer
+the player can pick any of paper, rock, and scissors
+and an automated move is done by the computer
+rock+rock = tie
+rock+paper=loss
+rock+scissors=win
+paper+rock=loss
+paper+paper=tie
+paper+scissors=win
+scissors+rock=win
+scissors+paper=loss
+scissors+scissors=tie
+a total score is assigned if wins,loss or ties reaches 20-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type="text/javascript" src="rockPaperScissors.js"> </script>
+  <link rel="stylesheet" href="news.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scissors game</title>
+</head>
+<body>
+  <h1 id="h1">Rock Paper Scissors</h1>
+  <h2 id="totalscore">Total score<h2>
+  <div id="score">
+    <h5 id ="wins">Total Wins:</h5>
+    <h5 id="totalwins">  0</h5>
+    <h5 id ="loss">Total loss:</h5>
+    <h5 id="totalLoss">0</h5>
+    <h5 id="ties">Total Ties:</h5>
+    <h5 id="totalTies">0</h5>
+</div>
+  <img src="./rock-emoji - Copy.png" alt="paper" id="img1" onclick="rock()">
+  <img src="./paper-emoji.png" alt="rock" id="img2" onclick="paper()">
+  <img src="./scissors-emoji.png" alt="scissors" id="img3" onclick = "scissors()">
+  <h4 id="div2">Start Game</h4>
+  <div id="div3">
+    <p id="p1">You</p>
+    <img src="./paper-emoji.png" alt="paper" id="p2">
+    <img src="./scissors-emoji.png" alt="scissors" id="p3">
+    <p id="p4">Computer</p>
+  </div>
+  <div id="div5">
+    <p>
+      Wins:
+    </p>
+    <p id="winner">0</p>
+    <p>
+      losses:
+    </p>
+    <p id="loser">
+      0
+    </p>
+    <p>
+      Ties:
+    </p>
+    <p id="tier">
+      0
+    </p>
+  </div>
+  <button id="reset" onclick="reset()">Reset Score</button>
+
+</body>
+</html>
